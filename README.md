@@ -1,9 +1,13 @@
 # DS Jobs salary
 Chicago Data Science jobs.
 
-The purpose of this project is to analize the data science jobs salary in Chicago, USA. 
+The purpose of this project is to analize the data science jobs salary in Chicago, USA. This project develops a tool that helps people that are looking for a data related job in USA. It estimates the salary (MAE ~ $ 11.5K) depending on the State, skills, age of the enterprise and others.
 
-This project develops a tool that helps people 
+* Used ~ 1000 job descriptions for organize the data
+* Found the features in the job description to quantify the skills
+* Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model
+* Built a client facing API using flask
+
 
 The development of this project is guided by ***Ken Jee*** with its YouTube [playlist](https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t)
  "Data Science Project from Scratch", 
