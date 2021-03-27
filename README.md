@@ -1,5 +1,5 @@
 # DS Jobs salary
-Chicago Data Science jobs.
+USA Data Science jobs.
 
 The purpose of this project is to analize the data science jobs salary in Chicago, USA. This project develops a tool that helps people that are looking for a data related job in USA. It estimates the salary (MAE ~ $ 11.5K) depending on the State, skills, age of the enterprise and others.
 
@@ -65,10 +65,23 @@ In order to use the data it was required make changes to make it usable for data
  <img align="center" width="400" height="280" src="job_by_state.png">
 </p>
 
+## ML Model
+The categorical variables were transformed into dummy variable and the data was splitted into train (80%) and test (20%).
 
+There were three models evualuated using Mean Absolute Error (MAE) because is very common to use:
+* **Random Forest**
+* **Lasso Regression**
+* **Multiple Linear Regression**
 
+## Model performance 
+### MAE
+* **Multiple Linear:**  12270635.153219618
+* **Lasso:**  17.761137299258326
+* **Random Forest:** 11.581543624161073
 
+# Productionization and Deployment
 
+In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary.
 
 
 ## Code and Resources used
