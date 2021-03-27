@@ -55,6 +55,20 @@ In order to use the data it was required make changes to make it usable for data
 
 ## Exploratory Data Analysis (EDA)
 
+<p align="center">
+   <img aligh="center"  src="salary_by_job_title.PNG">
+   <img aligh="center" width="380" height="350"  src="words.png">
+</p>
+
+<p align="center">
+ <img align="center" width="400" height="280" src="city.png">
+ <img align="center" width="400" height="280" src="job_by_state.png">
+</p>
+
+
+
+
+
 
 
 ## Code and Resources used
